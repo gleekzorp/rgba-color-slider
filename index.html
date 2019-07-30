@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>RGBA-COLOR-SLIDER</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="input-wrapper">
+        <div class="red-wrapper">
+          <div class="red">
+            RED
+          </div>
+          <input type="range" min="0" max="255" value="113" id="red-range" class="slider">
+          <div id="red-value-output"></div>
+        </div>
+        <div class="green-wrapper">
+          <div class="green">
+            GREEN
+          </div>
+          <input type="range" min="0" max="255" value="136" id="green-range" class="slider">
+          <div id="green-value-output"></div>
+        </div>
+        <div class="blue-wrapper">
+          <div class="blue">
+            BLUE
+          </div>
+          <input type="range" min="0" max="255" value="126" id="blue-range" class="slider">
+          <div id="blue-value-output"></div>
+        </div>
+        <div class="alpha-wrapper">
+          <div class="alpha">
+            ALPHA
+          </div>
+          <input type="range" min="0" max="10" value="10" id="alpha-range" class="slider">
+          <div id="alpha-value-output"></div>
+        </div>
+      </div>
+      <div id="color-wrapper">
+        <div id="rgba-color">rgba</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
