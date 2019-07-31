@@ -7,4 +7,4 @@
 ## TODO:
 
 - [ ] Current box font color is white.  Need to come up with a plan for when the font is hard to see.
-- [ ] Make the project mobile friendly.  Currently only works on desktop.
+- [x] Make the project mobile friendly.  Currently only works on desktop.
